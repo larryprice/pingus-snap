@@ -20,8 +20,8 @@ parts:
   env:
     plugin: dump
     organize:
-      environment.wrapper: usr/bin/environment.wrapper
+      pingus.wrapper: usr/bin/pingus
 
 apps:
   pingus:
-    command: environment.wrapper pingus
+    command: pingus

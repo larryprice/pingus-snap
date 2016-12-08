@@ -1,0 +1,2 @@
+#!/bin/sh
+exec $SNAP/usr/lib/games/pingus/pingus --datadir $SNAP/usr/share/games/pingus/data $@

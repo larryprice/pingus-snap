@@ -1,3 +1,0 @@
-#!/bin/sh
-
-export PATH=/usr/games:/usr/lib/games/pingus:$PATH
