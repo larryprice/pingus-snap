@@ -17,7 +17,11 @@ parts:
     plugin: nil
     stage-packages:
       - pingus
+  env:
+    plugin: dump
+    organize:
+      environment.wrapper: usr/bin/environment.wrapper
 
 apps:
   pingus:
-    command: usr/games/pingus
+    command: environment.wrapper pingus
