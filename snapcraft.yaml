@@ -9,7 +9,7 @@ description: |
     smart, they sometimes lack the necessary overview and now rely on you to
     save them.
 
-grade: devel
+grade: stable
 confinement: strict
 
 parts:
