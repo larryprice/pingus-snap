@@ -10,7 +10,7 @@ description: |
     save them.
 
 grade: devel
-confinement: devmode
+confinement: strict
 
 parts:
   archives:
@@ -25,3 +25,6 @@ parts:
 apps:
   pingus:
     command: pingus
+    plugs:
+      - x11
+      - pulseaudio
